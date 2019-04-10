@@ -1,8 +1,8 @@
 # Introducción a git y uso de GitHub
 
 ## Prerequisitos
-*Git
-*Anaconda
+* Git
+* Anaconda
 
 ## Empezando
 
@@ -16,6 +16,6 @@ Arreglo de bug línea #x
 Tarea sobre x cosa
 ```
 ## Recomendaciones
-*Si hay algún problema en los códigos, ábra un Issue describiendo el problema en cuestión
-*Si un Issue se le asignó, haga la tarea realizada y ciérrelo con una breve descripcción de qué hizo para llecar a cabo la tarea asignada
-*Consulte en el siguiente link los comandos básicos de Git [Link](https://github.com/joshnh/Git-Commands)
+* Si hay algún problema en los códigos, ábra un Issue describiendo el problema en cuestión
+* Si un Issue se le asignó, haga la tarea realizada y ciérrelo con una breve descripcción de qué hizo para llecar a cabo la tarea asignada
+* Consulte en el siguiente link los comandos básicos de Git [Link](https://github.com/joshnh/Git-Commands)
