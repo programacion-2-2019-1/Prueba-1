@@ -19,7 +19,7 @@ def rotar(x,y,angulo):
 
 def pendiente(x,y):
     ''' retorna la pendiente en rads de los arreglos x,y (dos elementos)'''
-    dy = y(1)-y(0)
-    dx = x(1)-x(0)
+    dy = y[1]-y[0]
+    dx = x[1]-x[0]
     m  = dy/dx
     return m
