@@ -1,1 +1,10 @@
-Aplicando funciones
+# Aplicando funciones
+# operar sobre listas
+import operator
+
+s1=np.arange(0,10)
+s2=np.arange(10,20)
+# suma: add, multip:mul, resta:sub, div:truediv
+t1 = list(map(operator.add,s1,s2))
+print(s1,s2)
+print(t1)
