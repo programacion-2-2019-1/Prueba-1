@@ -26,8 +26,12 @@ class Figura(object):
 			xt  = r*np.math.cos(ang+angulo)
 			yt  = r*np.math.sin(ang+angulo)
 			xr.append(xt);   yr.append(yt);
-		return xr,yr
+		self.x = xr
+		self.y = yr
+		#return xr,yr
 
-	def otro(self):
-		pass
+	def reset(self):
+		self.x = [-1,1,0,-1]
+		self.y = [0,0,1.5,0]
+		
 		
