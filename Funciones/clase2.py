@@ -44,5 +44,10 @@ class Figura(object):
 		tmp = map(operator.add,self.y,y2)
 		self.y = list(tmp)
 		pass
+
+	def ampliar(self,k_x,k_y):
+		for i in range(len(self.x)):
+			self.x[i] = self.x[i]*k_x
+			self.y[i] = self.y[i]*k_y
 		
 		
