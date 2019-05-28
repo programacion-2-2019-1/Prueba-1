@@ -1,4 +1,5 @@
 import numpy as np
+import operator
 
 class Figura(object):
 	"""docstring for Figura"""
@@ -33,5 +34,15 @@ class Figura(object):
 	def reset(self):
 		self.x = [-1,1,0,-1]
 		self.y = [0,0,1.5,0]
+
+	def mover(self,x,y):
+		''' Esta función permite desplazar la figura '''
+		x2 = np.ones(len(self.x))*x
+		tmp = map(operator.add,self.x,x2)
+		self.x = list(tmp)
+		y2 = np.ones(len(self.y))*y
+		tmp = map(operator.add,self.y,y2)
+		self.y = list(tmp)
+		pass
 		
 		
