@@ -1,0 +1,8 @@
+Trabajando con Pandas:
+
+Link para revisión:
+
+https://riptutorial.com/Download/pandas-es.pdf
+
+
+https://www.datos.gov.co/Transporte/Tabla-de-Costos-de-Peajes/jhpq-24h2
